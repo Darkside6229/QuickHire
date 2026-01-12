@@ -1,0 +1,18 @@
+import '../styles/LoadingSpinner.css';
+
+const LoadingSpinner = () => {
+  return (
+    <div className="loading-container">
+      <div className="spinner-wrapper">
+        <div className="spinner">
+          <div className="spinner-ring"></div>
+          <div className="spinner-ring"></div>
+          <div className="spinner-ring"></div>
+        </div>
+        <div className="loading-text">Loading...</div>
+      </div>
+    </div>
+  );
+};
+
+export default LoadingSpinner;
